@@ -43,11 +43,11 @@ class App extends Component {
               <main style={{marginTop : '60px',}}>
               </main>
           </div>
-          <Route path="/" exact component={HomeLander}/>
-          <Route path="/about" exact component={AboutMe}/>
-          <Route path="/experience" exact component={Experience}/>
-          <Route path="/skills" exact  component={Skills}/>
-          <Route path="/work"  exact component={Work}/>
+          <Route path="/portfolio/" exact component={HomeLander}/>
+          <Route path="/portfolio/about" exact component={AboutMe}/>
+          <Route path="/portfolio/experience" exact component={Experience}/>
+          <Route path="/portfolio/skills" exact  component={Skills}/>
+          <Route path="/portfolio/work"  exact component={Work}/>
           </BrowserRouter>
         );
   };
