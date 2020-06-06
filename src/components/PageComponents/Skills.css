@@ -1,0 +1,58 @@
+.skill {
+    margin-top: 5em;
+}
+
+
+.skill-text {
+    text-align: center;
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    font-family: 'Share Tech Mono';
+    color : #00ff41;
+    animation: text-shadow 2s ease-in-out 1;
+}
+
+.skills-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.skill-icon {
+    margin: 0.7em;
+    font-size: 2.3rem;
+    animation:blinkingIconNew 4s 1;
+}
+
+img {
+    size : 2.0em;
+    margin: 0.7em;
+    visibility: hidden;
+    animation:blinkingcpp 4s 1;
+    visibility: visible;
+}
+
+@keyframes blinkingcpp {
+    0% {opacity: 0;}
+    49%{  opacity: 0;  }
+    60%{ opacity: 0.3; }
+    70%{ opacity: 0.5; }
+    80%{opacity: 0.8;  }
+    100% {opacity: 1;}
+}
+
+@keyframes blinkingIconNew{
+    0% {opacity: 0;}
+    49%{  opacity: 0;  }
+    60%{ opacity: 0.3; }
+    70%{ opacity: 0.5; }
+    80%{opacity: 0.8;  }
+    100% {opacity: 1;}
+}
+
+@media (min-device-width : 768px)  {
+
+    .skill {
+        margin-top: 8em;
+    }
+}
