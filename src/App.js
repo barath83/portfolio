@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/Sidedrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-import { BrowserRouter ,Route} from 'react-router-dom';
+import { HashRouter ,Route} from 'react-router-dom';
 
 import AboutMe from './components/PageComponents/AboutMe';
 import Experience from './components/PageComponents/Experience';
@@ -35,7 +35,7 @@ class App extends Component {
           backdrop = <Backdrop click={this.backdropClickHandler}/>
         }
         return (
-          <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <HashRouter>
           <div>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
             <SideDrawer show={this.state.sideDrawerOpen}/>
@@ -48,7 +48,7 @@ class App extends Component {
           <Route path="/experience"  component={Experience}/>
           <Route path="/skills"   component={Skills}/>
           <Route path="/work"   component={Work}/>
-          </BrowserRouter>
+          </HashRouter>
         );
   };
 }
