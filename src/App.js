@@ -35,7 +35,7 @@ class App extends Component {
           backdrop = <Backdrop click={this.backdropClickHandler}/>
         }
         return (
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
             <SideDrawer show={this.state.sideDrawerOpen}/>
@@ -43,11 +43,11 @@ class App extends Component {
               <main style={{marginTop : '60px',}}>
               </main>
           </div>
-          <Route path="/portfolio/" exact component={HomeLander}/>
-          <Route path="/portfolio/about" exact component={AboutMe}/>
-          <Route path="/portfolio/experience" exact component={Experience}/>
-          <Route path="/portfolio/skills" exact  component={Skills}/>
-          <Route path="/portfolio/work"  exact component={Work}/>
+          <Route exact path="/" component={HomeLander}/>
+          <Route path="/about"  component={AboutMe}/>
+          <Route path="/experience"  component={Experience}/>
+          <Route path="/skills"   component={Skills}/>
+          <Route path="/work"   component={Work}/>
           </BrowserRouter>
         );
   };

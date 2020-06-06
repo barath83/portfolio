@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Experience.css';
+import './Experience.css';
 
 
 const experience = props => {

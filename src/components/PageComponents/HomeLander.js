@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+
 import './HomeLander.css';
 import Typical from 'react-typical';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
