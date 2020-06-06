@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: linear-gradient(to right,#181818,#080808,#101010);
+    background-image: linear-gradient(to right,#080808,#101010);
 }
 
 a{
@@ -21,10 +21,9 @@ a{
 
 .exp-container {
     margin-top: 1.0em;
-    width: 53.5vh;
     justify-content: center;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
     margin-bottom: 0.5em;
 }
 
@@ -34,7 +33,7 @@ a{
     color : #00ff41;
     font-size: 1.1em;
     font-family: 'Share Tech Mono';
-    border : 1px dashed #fafafa;
+    
     overflow-wrap: break-word;
     line-height: 1.4;
     letter-spacing: 0.1em;
@@ -65,10 +64,9 @@ a{
 
     .exp-container {
         margin-top: 1.0em;
-        width: 44vh;
         justify-content: center;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
         margin-bottom: 0.5em;
     }
 
@@ -79,10 +77,9 @@ a{
 
     .exp-container {
         margin-top: 1.0em;
-        width: 52.5vh;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
         justify-content: center;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
         margin-bottom: 0.5em;
     }
 }
@@ -106,7 +103,6 @@ a{
         color : #00ff41;
         font-size: 1.1em;
         font-family: 'Share Tech Mono';
-        border : 1px dashed #fafafa;
         overflow-wrap: break-word;
         line-height: 1.4;
         letter-spacing: 0.1em;

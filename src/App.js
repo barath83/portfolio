@@ -38,7 +38,7 @@ class App extends Component {
           <HashRouter>
           <div>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-            <SideDrawer show={this.state.sideDrawerOpen}/>
+            <SideDrawer show={this.state.sideDrawerOpen} closed={this.backdropClickHandler}/>
             {backdrop}
               <main style={{marginTop : '60px',}}>
               </main>
