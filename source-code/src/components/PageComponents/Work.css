@@ -1,0 +1,90 @@
+.awards-title {
+    color : #00ff41;
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 2.0rem;
+    font-family: 'Mode Seven';
+}
+
+.awards-list ul {
+    margin-top: 2.0em;
+    list-style: none;
+    align-items: justify;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.awards-list ul li {
+    
+    color: #00ff41;
+    font-size: 1.1em;
+    font-family: 'Share Tech Mono';
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    animation: text-shadow 2s ease-in-out 1;
+}
+
+.projects-title {
+    color : #00ff41;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 2.0rem;
+    font-family: 'Mode Seven';
+}
+
+.projects-list ul {
+    margin-top: 2em;
+    list-style: none;
+    align-items: justify;
+}
+
+.projects-list ul li {
+    color: #00ff41;
+    font-size: 1.0em;
+    font-family: 'Share Tech Mono';
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    animation: text-shadow 2s ease-in-out 1;
+}
+
+.pro-title {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+@media (min-device-width : 768px) {
+
+    .awards-list ul li {
+    
+        color: #00ff41;
+        font-size: 1.2em;
+        font-family: 'Share Tech Mono';
+        margin: 0.5em;
+        padding: 0.5em;
+        text-align: center;
+        line-height: 1.4;
+        letter-spacing: 0.1em;
+        animation: text-shadow 2s ease-in-out 1;
+    }
+
+    .projects-list ul li {
+        color: #00ff41;
+        font-size: 1.2em;
+        font-family: 'Share Tech Mono';
+        margin-top: 0.5em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 0.5em;
+        padding: 0.5em;
+        text-align: center;
+        line-height: 1.4;
+        letter-spacing: 0.1em;
+        animation: text-shadow 2s ease-in-out 1;
+    }
+}
