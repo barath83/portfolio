@@ -20,7 +20,7 @@ const experience = props => {
                 </div>
                 <div className="exp-content">
                     <h3 class="exp-title">Executive Member<br></br>Association of Computer Engineers,SVCE</h3>
-                    <p class="exp-desc">As a Executive member,I was held responsible for organizing various events through out the year including the flagship events Interrupt 2k19 and <a href="hackerrupt.in/index.html">Hackerrupt.</a><br></br><br></br> I played a active role in public relations,marketing team and put forth my hand in preparing creative content.</p>
+                    <p class="exp-desc">As an Executive member,I was held responsible for organizing various events through out the year including the flagship events Interrupt 2k19 and <a href="hackerrupt.in/index.html">Hackerrupt.</a><br></br><br></br> I played an active role in public relations,marketing team and put forth my hand in preparing creative content.</p>
                 </div>
             </div>
             </div>
