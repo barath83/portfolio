@@ -13,7 +13,7 @@ const toolbar = props => (
             <div className="toolbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className="toolbar__logo"><Link to="/">Barath Gopinath</Link></div>
+            <div className="toolbar__logo"><Link to="/">Barath G</Link></div>
             <div className="spacer"></div>
             <div className="toolbar_navigation-items">
                 <ul>

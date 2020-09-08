@@ -25,7 +25,7 @@ body {
     overflow-wrap: break-word;
     line-height: 1.2;
     letter-spacing: 0.1em;
-    animation: text-shadow 2s ease-in-out 1;
+    animation: text-shadow 1.5s ease-in-out 1;
 }
 
 

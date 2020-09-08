@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAndroid,faHtml5,faCss3Alt,faJs,faReact,faPython} from '@fortawesome/free-brands-svg-icons'; 
 import { faFireAlt,} from '@fortawesome/free-solid-svg-icons';
 import cpp from '../../assets/cpp.png';
+import flutter from '../../assets/flutter.png';
+import algorithm from '../../assets/algorithm.png';
 
 const skills = props => {
 
@@ -12,11 +14,12 @@ const skills = props => {
            <div className="skill">
                 <div className="skill-title">Skills</div>
                <Typical className="skill-text"
-                        steps={['', 1000, 'Android Developer', 1500]}
+                        steps={['', 1000, 'Mobile Application Developer', 1500]}
                         loop={1}
                         wrapper="p"/>
                 <div className="skills-icon">
-                        <FontAwesomeIcon className="skill-icon" icon={faAndroid} color="#00ff41"/>
+                        <FontAwesomeIcon className="skill-icon"  size="60px" icon={faAndroid} color="#00ff41"/>
+                        <img height="52.5px" src={flutter} alt="cpp-icon"/>
                 </div> 
                 <Typical className="skill-text"
                         steps={['', 1000, 'Firebase Web-App Services', 1500]}
@@ -41,7 +44,7 @@ const skills = props => {
                         wrapper="p"/>
                 <div className="skills-icon">
                         <img src={cpp} alt="cpp-icon"/>
-                        <FontAwesomeIcon className="skill-icon" icon={faPython} color="#00ff41"/>
+                        <img src={algorithm} alt="cpp-icon"/>
                 </div>                            
            </div>
         );

@@ -28,12 +28,15 @@ a{
 }
 
 .exp-content {
-    margin : 0.2em;
-    padding : 0.8em;
+    margin-top : 0.8em;
+    margin-bottom : 0.8em;
+    margin-left : 0.5em;
+    margin-right: 0.5em;
+    padding : 0.4em;
     color : #00ff41;
     font-size: 1.1em;
     font-family: 'Share Tech Mono';
-    
+    border : 1px dashed white;
     overflow-wrap: break-word;
     line-height: 1.4;
     letter-spacing: 0.1em;
@@ -49,6 +52,19 @@ a{
     animation: fadein 2s 1;
 }
 
+.exp-icon{
+    margin-right:0.2em;
+    margin-left: 0.1em;
+}
+
+.exp-time {
+    margin-left: 0.5em;
+}
+
+.exp-icon-cal{
+    margin-left: 0.3em;
+    
+}
 
 @keyframes fadein{
     0% {opacity: 0;}
@@ -70,6 +86,19 @@ a{
         margin-bottom: 0.5em;
     }
 
+    .exp-icon{
+        margin-right:0.2em;
+        margin-left: 0.1em;
+    }
+    .exp-time {
+        margin-left: 0.5em;
+    }
+
+    .exp-icon-cal{
+        margin-left: 0.3em;
+        
+    }
+
 }
 
 
@@ -79,8 +108,22 @@ a{
         margin-top: 1.0em;
         margin-left: 0.6em;
         margin-right: 0.6em;
+        
         justify-content: center;
         margin-bottom: 0.5em;
+    }
+
+    .exp-icon{
+        margin-right:0.2em;
+        margin-left: 0.1em;
+    }
+    .exp-time {
+        margin-left: 0.5em;
+    }
+
+    .exp-icon-cal{
+        margin-left: 0.3em;
+        
     }
 }
 
@@ -94,19 +137,34 @@ a{
     }
 
     .exp-container{
-        width : 160vh;
+        width : 200vh;
     }
 
     .exp-content {
-        margin : 0.2em;
+        margin : 0.8em;
         padding : 0.8em;
         color : #00ff41;
         font-size: 1.1em;
+        border : 1px dashed white;
         font-family: 'Share Tech Mono';
         overflow-wrap: break-word;
         line-height: 1.4;
         letter-spacing: 0.1em;
     }
+    
+    .exp-time {
+        margin-left: 0.5em;
+    }
 
+    .exp-icon{
+        margin-right:0.2em;
+        margin-left: 0.1em;
+    }
+
+    .exp-icon-cal{
+        margin-left: 0.3em;
+        
+    }
+    
     
 }
