@@ -12,7 +12,7 @@ const skills = props => {
 
       return (
            <div className="skill">
-                <div className="skill-title">Skills</div>
+                <h2 className="skill-title">Skills</h2>
                <Typical className="skill-text"
                         steps={['', 1000, 'Mobile Application Developer', 1500]}
                         loop={1}

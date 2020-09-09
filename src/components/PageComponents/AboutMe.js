@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+
 import './AboutMe.css';
 
 const aboutMe = props => {
@@ -7,7 +7,7 @@ const aboutMe = props => {
     return (
 
         <div>
-            <h2 className="about-title"><ReactTypingEffect text="E:\Barath\portfolio..> About Me" speed = "150" typingDelay = "1000" /></h2>
+            <h2 className="about-title">About Me</h2>
             <div className="p-div">
                 <p className="about-content">
                 Hey, this is Barath, I'm a pre-final year CS undergrad.I love developing front end applications and devising creative solutions to intricate problems.
