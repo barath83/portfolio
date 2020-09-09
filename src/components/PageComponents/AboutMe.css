@@ -5,16 +5,18 @@ body {
 
 .about-title {
     text-align: center;
-    margin-top: 2.6em;
-    font-size: 2.0rem;
-    font-family: 'Mode Seven';
+    margin-top: 4em;
+    font-size: 1.5rem;
+    
+    font-family: 'Share Tech Mono';
     color : #00ff41;
 }
 
 
 .about-content {
     text-align: center;
-    margin-top: 2.4em;
+    margin-top: 2em;
+    margin-bottom : 3em;
     margin-left: 0.8em;
     margin-right: 0.8em;
     justify-content: center;
@@ -82,9 +84,9 @@ body {
 
     .about-title {
         text-align: center;
-        margin-top: 2.5em;
-        font-size: 1.6rem;
-        font-family: 'Mode Seven';
+        margin-top: 3em;
+        font-size: 1.5rem;
+        font-family: 'Share Tech Mono';
         color : #00ff41;
     }
     
@@ -94,6 +96,7 @@ body {
         margin-top: 1.3em;
         margin-left: 0.8em;
         margin-right: 0.8em;
+        margin-bottom: 3em;
         justify-content: center;
         padding: 0.2em;
         font-size: 1.0rem;
@@ -117,9 +120,9 @@ body {
 
     .about-title {
         text-align: center;
-        margin-top: 2.5em;
-        font-size: 2.5rem;
-        font-family: 'Mode Seven';
+        margin-top: 4em;
+        font-size: 2rem;
+        font-family: 'Share Tech Mono';
         color : #00ff41;
         width: 100%;  
     }
@@ -127,7 +130,7 @@ body {
     
     .about-content {
         text-align: center;
-        margin-top: 2.5em;
+        margin-top: 2em;
         font-size: 1.6rem;
         font-family: 'Share Tech Mono';
         width : 140vh;
@@ -146,9 +149,9 @@ body {
 
     .about-title {
         text-align: center;
-        margin-top: 2.2em;
-        font-size: 2.5rem;
-        font-family: 'Mode Seven';
+        margin-top: 4em;
+        font-size: 1.5rem;
+        font-family: 'Share Tech Mono';
         color : #00ff41;
         width: 100%;
         
@@ -157,10 +160,11 @@ body {
     
     .about-content {
         text-align: center;
-        margin-top: 2.6em;
+        margin-top: 2em;
         font-size: 1.2rem;
         margin-left: 0.8em;
         margin-right: 0.8em;
+        margin-bottom : 3em;
         justify-content: center;
         font-family: 'Share Tech Mono';
         letter-spacing: 0.1em;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactTypingEffect from 'react-typing-effect';
 import {faBriefcase,faLink,faUsers,faClock} from '@fortawesome/free-solid-svg-icons';
 
 
@@ -8,7 +9,7 @@ const experience = props => {
 
     return (
         <div className="exp-main">
-            <div class="experience-title">Experience</div>
+            <div class="experience-title"><ReactTypingEffect text="E:\Barath\portfolio..> Experience" speed = "150" typingDelay = "1000" /></div>
             <div className="e-div">
             <div className="exp-container">
 

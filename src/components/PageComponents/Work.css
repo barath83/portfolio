@@ -2,8 +2,14 @@
     color : #00ff41;
     text-align: center;
     margin-top: 2.5em;
-    font-size: 2.0rem;
-    font-family: 'Mode Seven';
+    margin-left:1em;
+    margin-right: 1em;
+    font-size: 1.5rem;
+    font-family: 'Share Tech Mono';
+}
+
+.awards {
+    margin-bottom: 3em;
 }
 
 .awards-list ul {
@@ -19,72 +25,137 @@
     color: #00ff41;
     font-size: 1.1em;
     font-family: 'Share Tech Mono';
-    margin: 0.5em;
+    margin-left: 1.5em;
+    margin-right:1.5em;
     padding: 0.5em;
     text-align: center;
     line-height: 1.4;
+    animation: fadein 2s 1;
     letter-spacing: 0.1em;
-    animation: text-shadow 2s ease-in-out 1;
+    
 }
 
 .projects-title {
     color : #00ff41;
-    text-align: center;
-    margin-top: 1.5em;
-    font-size: 2.0rem;
-    font-family: 'Mode Seven';
+    text-align: left;
+    margin-top: 4.0em;
+    margin-left:1em;
+    font-size: 1.5rem;
+    font-family: 'Share Tech Mono';
 }
 
 .projects-list ul {
-    margin-top: 2em;
+    
     list-style: none;
     align-items: justify;
+    
 }
 
 .projects-list ul li {
     color: #00ff41;
     font-size: 1.0em;
     font-family: 'Share Tech Mono';
-    margin: 0.5em;
+    margin-top: 0em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
     padding: 0.5em;
-    text-align: center;
+    text-align: left;
     line-height: 1.4;
     letter-spacing: 0.1em;
-    animation: text-shadow 2s ease-in-out 1;
+    animation: fadein 2s 1;
+    border: 1px dashed white;
+   
 }
 
 .pro-title {
+    
     font-size: 1.3em;
     font-weight: 800;
+    font-family: 'Mode Seven';
+}
+
+.work-icon{
+       
+    margin-right:0.2em;
+    margin-left: 0.3em;
+}
+
+.awa-icon {
+    margin-right:0.3em;
+    margin-left: 0em;
+}
+
+.work-time {
+    margin-left: 0.1em;
 }
 
 @media (min-device-width : 768px) {
+
+    
+    .projects-title {
+        color : #00ff41;
+        text-align: left;
+        margin-top: 3.0em;
+        margin-left:1.5em;
+        font-size: 2.0rem;
+        font-family: 'Share Tech Mono';
+    }
+
+    .awards-title {
+        color : #00ff41;
+        text-align: left;
+        margin-top: 1.5em;
+        margin-left:1.5em;
+        font-size: 2.0rem;
+        font-family: 'Share Tech Mono';
+    }
+
 
     .awards-list ul li {
     
         color: #00ff41;
         font-size: 1.2em;
         font-family: 'Share Tech Mono';
-        margin: 0.5em;
+        margin-top: 0em;
+        margin-left: 2em;
+        margin-right: 2.5em;
+        margin-bottom: 0em;
         padding: 0.5em;
-        text-align: center;
+        text-align: left;
         line-height: 1.4;
         letter-spacing: 0.1em;
-        animation: text-shadow 2s ease-in-out 1;
+        animation: fadein 2s 1;
     }
 
     .projects-list ul li {
         color: #00ff41;
         font-size: 1.2em;
         font-family: 'Share Tech Mono';
-        margin-top: 0.5em;
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-bottom: 0.5em;
+        margin-top: 0em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+        margin-bottom: 0em;
         padding: 0.5em;
-        text-align: center;
+        text-align: left;
         line-height: 1.4;
         letter-spacing: 0.1em;
-        animation: text-shadow 2s ease-in-out 1;
+        border: 1px dashed white;
+        animation: fadein 2s 1;
+    }
+
+    .work-icon{
+       
+        margin-right:0.2em;
+        margin-left: 0.3em;
+    }
+
+    .awa-icon {
+        margin-right:0.3em;
+        margin-left: 0em;
+    }
+
+    .work-time {
+        margin-left: 0.1em;
     }
 }

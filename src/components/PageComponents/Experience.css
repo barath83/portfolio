@@ -13,9 +13,9 @@ a{
 
 .experience-title {
     text-align: center;
-    margin-top: 2.5em;
-    font-size: 2.0rem;
-    font-family: 'Mode Seven';
+    margin-top: 3em;
+    font-size: 1.5rem;
+    font-family: 'Share Tech Mono';
     color : #00ff41;
 }
 
@@ -45,6 +45,7 @@ a{
 .exp-title {
     margin : 0.2em;
     font-size: 1.4em;
+    font-family: 'Mode Seven';
 }
 
 .exp-desc {
@@ -77,6 +78,7 @@ a{
 
 
 @media (min-height : 811px ) {
+    
 
     .exp-container {
         margin-top: 1.0em;
@@ -103,6 +105,15 @@ a{
 
 
 @media (max-width : 320px) {
+
+    .experience-title {
+        text-align: left;
+        margin-top: 4em;
+        margin-left:1em;
+        font-size: 1.5rem;
+        font-family: 'Share Tech Mono';
+        color : #00ff41;
+    }
 
     .exp-container {
         margin-top: 1.0em;
@@ -138,6 +149,15 @@ a{
 
     .exp-container{
         width : 200vh;
+    }
+
+    .experience-title {
+        text-align: left;
+        margin-top: 2.5em;
+        margin-left:1.7em;
+        font-size: 2.0rem;
+        font-family: 'Share Tech Mono';
+        color : #00ff41;
     }
 
     .exp-content {
