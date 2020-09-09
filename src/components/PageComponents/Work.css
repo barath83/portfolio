@@ -15,7 +15,7 @@
 .awards-list ul {
     margin-top: 2.0em;
     list-style: none;
-    align-items: justify;
+    align-items: left;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -28,7 +28,7 @@
     margin-left: 1.5em;
     margin-right:1.5em;
     padding: 0.5em;
-    text-align: center;
+    text-align: left;
     line-height: 1.4;
     animation: fadein 2s 1;
     letter-spacing: 0.1em;
