@@ -18,7 +18,7 @@ const work = props => {
                         <li><span className="pro-title">T20 Cricket Auction</span>
                         <a href="https://play.google.com/store/apps/details?id=com.t20auction.iplbidder"><span class="work-icon"><FontAwesomeIcon className="work-icon"  icon={faLink} color="#00ff41"/></span></a>
                         <br></br><h5 class="work-time">July 2020 - Present<span class="exp-icon-cal"><FontAwesomeIcon className="exp-icon-cal"  icon={faClock} color="#00ff41"/></span></h5>
-                        <br></br>An android application from scratch that provides a virtual IPL auction experience with multiplayer facility.This app is live in playstore with 3K+ installs.
+                        <br></br>An android application developed from scratch that provides a virtual IPL auction experience with multiplayer facility.This app is live in playstore with 3K+ installs.
                         </li> 
 
                         //2.
@@ -29,7 +29,7 @@ const work = props => {
                         </li>  
 
                         //3.
-                        <li><span className="pro-title">Voice Based Customer Grievance Redressal System</span>
+                        <li><span className="pro-title">VOGAL - VOice based Grievance AddressaL</span>
                         <a href="https://github.com/barath83/Voice-based-Grievance-Redressal-System"><span class="work-icon"><FontAwesomeIcon className="work-icon"  icon={faLink} color="#00ff41"/></span></a>
                         <br></br><h5 class="work-time">Aug 2019 - Sep 2019<span class="exp-icon-cal"><FontAwesomeIcon className="exp-icon-cal"  icon={faClock} color="#00ff41"/></span></h5>
                         <br></br>An automated software that records customer feedback,complaints and bank related queries via voice. The recorded grievances of every customer is been analyzed and a report of their problem is generated, which is redirected to the respective departments. The customers can keep track about status of their complaint through the application.
@@ -37,7 +37,7 @@ const work = props => {
 
 
                         //4.
-                        <li><span className="pro-title">Smart Garbage Disposal and Monitoring System</span>
+                        <li><span className="pro-title">Gone Garbage</span>
                         <a href="https://github.com/barath83/Smart-Garbage-Disposal-and-Monitoring-System"><span class="work-icon"><FontAwesomeIcon className="work-icon"  icon={faLink} color="#00ff41"/></span></a>
                         <br></br><h5 class="work-time">Mar 2019 - Aug 2019<span class="exp-icon-cal"><FontAwesomeIcon className="exp-icon-cal"  icon={faClock} color="#00ff41"/></span></h5>
                         <br></br>A project that primarily focuses to eliminate the hazards of garbage overflow.The system is primarily based on IoT that can alert the responsible officials to collect the garbage from the locations where overflowing dumpsters need immediate concern.
