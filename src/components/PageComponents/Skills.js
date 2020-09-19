@@ -19,7 +19,6 @@ const skills = props => {
                         wrapper="p"/>
                 <div className="skills-icon">
                         <FontAwesomeIcon className="skill-icon"  size="60px" icon={faAndroid} color="#00ff41"/>
-                        <img height="52.5px" src={flutter} alt="cpp-icon"/>
                 </div> 
                 <Typical className="skill-text"
                         steps={['', 1000, 'Firebase Web-App Services', 1500]}
